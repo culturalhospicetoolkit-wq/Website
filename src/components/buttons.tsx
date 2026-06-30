@@ -21,15 +21,18 @@ export function PrimaryButton({
 export function TextLink({
   href,
   children,
+  variant = "default",
 }: {
   href: string;
   children: ReactNode;
+  variant?: "default" | "light";
 }) {
+  const className =
+    variant === "light"
+      ? "border-b border-white/35 pb-0.5 text-[13px] font-medium text-white/85 transition-colors hover:border-amber hover:text-amber"
+      : "border-b border-slate-blue/35 pb-0.5 text-[13px] font-medium text-slate-blue transition-colors hover:border-teal-deep hover:text-teal-deep";
   return (
-    <Link
-      href={href}
-      className="border-b border-slate-blue/35 pb-0.5 text-[13px] font-medium text-slate-blue transition-colors hover:border-teal-deep hover:text-teal-deep"
-    >
+    <Link href={href} className={className}>
       {children}
     </Link>
   );
