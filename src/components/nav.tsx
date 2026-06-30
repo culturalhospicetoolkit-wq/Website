@@ -19,11 +19,8 @@ export function Nav() {
   return (
     <nav className="fixed inset-x-0 top-0 z-50 border-b border-border-soft bg-off-white/95 backdrop-blur-md">
       <div className="flex items-center justify-between gap-6 px-6 py-4 sm:px-13">
-        <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <LogoMark size={40} />
-          <span className="font-serif text-xl tracking-[0.16em] text-teal-deep uppercase">
-            Aligned
-          </span>
+        <Link href="/" className="flex items-center" onClick={() => setOpen(false)}>
+          <LogoMark size={48} />
         </Link>
         <ul className="hidden items-center gap-8 md:flex">
           {LINKS.map((link) => (

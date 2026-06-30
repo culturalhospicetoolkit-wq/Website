@@ -134,15 +134,15 @@ export default function Home() {
         <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 pt-40 pb-24 text-center sm:px-12">
           <div
             className="pointer-events-none absolute top-[5%] right-[8%] h-[420px] w-[420px] rounded-full"
-            style={{ background: "radial-gradient(circle, rgba(255,184,112,0.22) 0%, transparent 68%)" }}
+            style={{ background: "radial-gradient(circle, rgba(205,185,140,0.22) 0%, transparent 68%)" }}
           />
           <div
             className="pointer-events-none absolute bottom-[10%] left-[5%] h-[360px] w-[360px] rounded-full"
-            style={{ background: "radial-gradient(circle, rgba(30,92,74,0.10) 0%, transparent 68%)" }}
+            style={{ background: "radial-gradient(circle, rgba(75,82,54,0.10) 0%, transparent 68%)" }}
           />
           <div
             className="pointer-events-none absolute top-[20%] left-[15%] h-[300px] w-[300px] rounded-full"
-            style={{ background: "radial-gradient(circle, rgba(122,104,168,0.09) 0%, transparent 68%)" }}
+            style={{ background: "radial-gradient(circle, rgba(122,114,86,0.09) 0%, transparent 68%)" }}
           />
           <div className="relative z-10 mb-8">
             <LogoMark size={160} />
@@ -255,7 +255,7 @@ export default function Home() {
               {SOLUTION_CARDS.map((card) => (
                 <div
                   key={card.title}
-                  className="flex flex-col rounded-sm border border-purple-deep/8 bg-white p-9 transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(30,92,74,0.08)]"
+                  className="flex flex-col rounded-sm border border-purple-deep/8 bg-white p-9 transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(75,82,54,0.08)]"
                 >
                   <div className={`mb-6 h-[3px] w-8 rounded-sm ${card.marker}`} />
                   <h3 className="mb-3 font-serif text-[22px] leading-[1.28] font-normal text-near-black">{card.title}</h3>

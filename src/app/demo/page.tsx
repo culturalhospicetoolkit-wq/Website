@@ -24,7 +24,7 @@ export default function DemoPage() {
           <div
             className="pointer-events-none absolute -right-20 -bottom-20 h-[400px] w-[400px] rounded-full"
             style={{
-              background: "radial-gradient(circle, rgba(255,207,150,0.12) 0%, transparent 65%)",
+              background: "radial-gradient(circle, rgba(217,201,163,0.12) 0%, transparent 65%)",
             }}
           />
           <div className="relative z-10 max-w-md">

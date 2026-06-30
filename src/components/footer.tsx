@@ -13,9 +13,8 @@ const LINKS = [
 export function Footer() {
   return (
     <footer className="flex flex-wrap items-center justify-between gap-5 bg-near-black px-6 py-11 sm:px-13">
-      <Link href="/" className="flex items-center gap-2.5 font-serif text-lg tracking-[0.15em] text-teal-light uppercase">
-        <LogoMark size={26} />
-        Aligned
+      <Link href="/" className="flex items-center">
+        <LogoMark size={36} variant="light" />
       </Link>
       <ul className="flex flex-wrap gap-7">
         {LINKS.map((link) => (

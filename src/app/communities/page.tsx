@@ -114,7 +114,7 @@ export default function CommunitiesPage() {
             </h2>
 
             <div className="grid gap-6 text-left sm:grid-cols-2">
-              <div className="rounded-sm border-2 border-teal-deep/25 bg-off-white p-9 transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(30,92,74,0.12)] sm:col-span-2">
+              <div className="rounded-sm border-2 border-teal-deep/25 bg-off-white p-9 transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(75,82,54,0.12)] sm:col-span-2">
                 <div className="mb-5 flex flex-wrap items-center justify-between gap-2">
                   <div className="font-serif text-2xl leading-[1.2] font-normal text-near-black">
                     {FEATURED_COMMUNITY.name}
@@ -141,7 +141,7 @@ export default function CommunitiesPage() {
               {COMMUNITIES.map((community) => (
                 <div
                   key={community.name}
-                  className="rounded-sm border border-border-soft bg-off-white p-9 transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(30,92,74,0.08)]"
+                  className="rounded-sm border border-border-soft bg-off-white p-9 transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(75,82,54,0.08)]"
                 >
                   <div className="mb-5 flex flex-wrap items-center justify-between gap-2">
                     <div className="font-serif text-2xl leading-[1.2] font-normal text-near-black">

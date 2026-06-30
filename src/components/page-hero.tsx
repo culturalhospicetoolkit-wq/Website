@@ -20,8 +20,8 @@ export function PageHero({
         style={{
           background:
             washSide === "right"
-              ? "radial-gradient(circle, rgba(255,184,112,0.15) 0%, transparent 68%)"
-              : "radial-gradient(circle, rgba(122,104,168,0.1) 0%, transparent 68%)",
+              ? "radial-gradient(circle, rgba(205,185,140,0.15) 0%, transparent 68%)"
+              : "radial-gradient(circle, rgba(122,114,86,0.1) 0%, transparent 68%)",
         }}
       />
       <div className="relative z-10 mx-auto max-w-[1080px]">
