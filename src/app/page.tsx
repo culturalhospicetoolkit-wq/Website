@@ -98,14 +98,14 @@ export default function Home() {
           <p className="relative z-10 mb-5 text-[11px] font-semibold tracking-[0.24em] text-teal-light uppercase">
             Culturally Adaptive Serious Illness &amp; End-of-Life Education
           </p>
-          <h1 className="relative z-10 mb-7 max-w-3xl font-serif text-[clamp(42px,6vw,78px)] leading-[1.1] font-light tracking-tight text-white">
+          <h1 className="relative z-10 mb-7 max-w-3xl font-serif text-[clamp(42px,6vw,78px)] leading-[1.1] font-normal tracking-tight text-white">
             The cultural bridge between your hospice and the{" "}
             <em className="text-peach font-normal not-italic italic">communities you&rsquo;re missing.</em>
           </h1>
           <p className="relative z-10 mb-7 font-serif text-[clamp(26px,3.2vw,40px)] leading-[1.2] font-medium text-amber">
             The fastest path to census growth in underserved markets.
           </p>
-          <p className="relative z-10 mb-13 max-w-lg text-base leading-[1.8] font-light text-white/62">
+          <p className="relative z-10 mb-13 max-w-lg text-base leading-[1.8] text-white/80">
             Aligned gives hospice organizations a turnkey system to reach more families, grow census, and prepare
             every member of your clinical team to serve with cultural confidence.
           </p>
@@ -121,7 +121,7 @@ export default function Home() {
         <div className="flex flex-wrap justify-center gap-x-0 gap-y-8 bg-near-black px-6 py-13 sm:px-12">
           {STATS.map((stat) => (
             <div key={stat.label} className="border-white/8 px-7 text-center last:border-r-0 sm:border-r sm:px-14">
-              <div className={`mb-2 font-serif text-[52px] leading-none font-light ${stat.color}`}>{stat.number}</div>
+              <div className={`mb-2 font-serif text-[52px] leading-none font-normal text-terracotta`}>{stat.number}</div>
               <div className="mx-auto max-w-[160px] text-[11px] leading-[1.5] tracking-[0.1em] text-white/38 uppercase">
                 {stat.label}
               </div>
@@ -129,16 +129,20 @@ export default function Home() {
           ))}
         </div>
 
+        {/* STATEMENT */}
+        <section className="px-6 py-24 text-center sm:px-12">
+          <h2 className="mx-auto max-w-3xl font-serif text-[clamp(32px,4.5vw,62px)] leading-[1.2] font-normal text-white">
+            Underserved communities aren&rsquo;t choosing other hospices.{" "}
+            <em className="not-italic text-terracotta">They&rsquo;re choosing nothing.</em>
+          </h2>
+        </section>
+
         {/* PROBLEM */}
-        <section className="px-6 py-22 sm:px-12">
+        <section className="border-t border-white/10 px-6 py-18 sm:px-12">
           <div className="mx-auto max-w-[1080px]">
-            <p className="mb-4.5 text-[11px] font-semibold tracking-[0.2em] text-teal-light uppercase">The Problem</p>
-            <h2 className="mb-8 max-w-2xl font-serif text-[clamp(34px,4vw,54px)] leading-[1.15] font-light text-white">
-              Underserved communities aren&rsquo;t choosing other hospices.{" "}
-              <em className="text-peach font-normal not-italic italic">They&rsquo;re choosing nothing.</em>
-            </h2>
+            <p className="mb-4.5 text-[11px] font-semibold tracking-[0.2em] text-teal-light uppercase">Why It Happens</p>
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-18">
-              <p className="text-[15px] leading-[1.88] text-white/65">
+              <p className="text-[15px] leading-[1.88] text-white/80">
                 The reason isn&rsquo;t awareness alone — it&rsquo;s trust. Aligned content isn&rsquo;t translated,
                 it&rsquo;s rebuilt around each community&rsquo;s own values, family structures, and relationship
                 with the healthcare system. That&rsquo;s what earns trust in the room.
@@ -158,7 +162,7 @@ export default function Home() {
         <section id="solution" className="border-t border-white/10 px-6 py-22 sm:px-12">
           <div className="mx-auto max-w-[1080px]">
             <p className="mb-4.5 text-[11px] font-semibold tracking-[0.2em] text-teal-light uppercase">The Platform</p>
-            <h2 className="mb-10 max-w-2xl font-serif text-[clamp(34px,4vw,54px)] leading-[1.15] font-light text-white">
+            <h2 className="mb-10 max-w-2xl font-serif text-[clamp(34px,4vw,54px)] leading-[1.15] font-normal text-white">
               A complete cultural competency system. <em className="text-peach font-normal not-italic italic">Not just content.</em>
             </h2>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -166,7 +170,7 @@ export default function Home() {
                 <div key={card.title} className="flex flex-col rounded-sm border border-white/10 bg-white/5 p-8">
                   <div className={`mb-5 h-[3px] w-8 rounded-sm ${card.marker}`} />
                   <h3 className="mb-2.5 font-serif text-[20px] leading-[1.28] font-normal text-white">{card.title}</h3>
-                  <p className="text-sm leading-[1.7] text-white/60">{card.body}</p>
+                  <p className="text-sm leading-[1.7] text-white/75">{card.body}</p>
                 </div>
               ))}
             </div>
@@ -182,7 +186,7 @@ export default function Home() {
         <section className="border-t border-white/10 px-6 py-22 sm:px-12">
           <div className="mx-auto max-w-[1080px]">
             <p className="mb-4.5 text-[11px] font-semibold tracking-[0.2em] text-teal-light uppercase">Who It&rsquo;s For</p>
-            <h2 className="mb-10 font-serif text-[clamp(34px,4vw,54px)] leading-[1.15] font-light text-white">
+            <h2 className="mb-10 font-serif text-[clamp(34px,4vw,54px)] leading-[1.15] font-normal text-white">
               Built for three teams. <em className="text-peach font-normal not-italic italic">Serving the same mission.</em>
             </h2>
             <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
@@ -191,7 +195,7 @@ export default function Home() {
                   <span className="mb-4 inline-block rounded-full bg-white/10 px-3 py-1.5 text-[10px] font-bold tracking-[0.18em] text-teal-light uppercase">
                     {card.badge}
                   </span>
-                  <h3 className="font-serif text-[19px] leading-[1.3] font-light text-white">{card.title}</h3>
+                  <h3 className="font-serif text-[19px] leading-[1.3] font-normal text-white">{card.title}</h3>
                 </div>
               ))}
             </div>
@@ -207,7 +211,7 @@ export default function Home() {
         <section className="border-t border-white/10 px-6 py-20 text-center sm:px-12">
           <div className="mx-auto max-w-[1080px]">
             <p className="mb-4.5 text-[11px] font-semibold tracking-[0.2em] text-teal-light uppercase">Cultural Communities</p>
-            <h2 className="mx-auto mb-9 font-serif text-[clamp(34px,4vw,54px)] leading-[1.15] font-light text-white">
+            <h2 className="mx-auto mb-9 font-serif text-[clamp(34px,4vw,54px)] leading-[1.15] font-normal text-white">
               10 communities. More in development.
             </h2>
             <div className="flex flex-wrap justify-center gap-3">
@@ -231,7 +235,7 @@ export default function Home() {
         {/* CTA */}
         <section id="demo" className="border-t border-white/10 bg-near-black px-6 py-26 text-center sm:px-12">
           <p className="mb-4.5 text-[11px] font-semibold tracking-[0.2em] text-teal-light uppercase">Get Started</p>
-          <h2 className="mx-auto mt-4.5 mb-4 max-w-xl font-serif text-[clamp(38px,5vw,60px)] leading-[1.12] font-light text-white">
+          <h2 className="mx-auto mt-4.5 mb-4 max-w-xl font-serif text-[clamp(38px,5vw,60px)] leading-[1.12] font-normal text-white">
             Ready to reach the communities <em className="text-peach font-normal not-italic italic">waiting for you?</em>
           </h2>
           <p className="mb-11 max-w-sm mx-auto text-[15px] leading-[1.78] text-white/55">

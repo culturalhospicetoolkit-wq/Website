@@ -78,7 +78,7 @@ export default function AboutPage() {
               <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
                 Why We Built This
               </p>
-              <h2 className="font-serif text-[clamp(32px,3.8vw,48px)] leading-[1.18] font-light text-near-black">
+              <h2 className="font-serif text-[clamp(32px,3.8vw,48px)] leading-[1.18] font-normal text-near-black">
                 Hospice is one of the greatest gifts we can offer.
                 <br />
                 <em className="text-teal-deep not-italic italic">Not everyone is receiving it.</em>
@@ -125,7 +125,7 @@ export default function AboutPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-teal-light uppercase">
               Our Mission
             </p>
-            <p className="font-serif text-[clamp(28px,3.5vw,44px)] leading-[1.35] font-light text-white italic">
+            <p className="font-serif text-[clamp(28px,3.5vw,44px)] leading-[1.35] font-normal text-white italic">
               &ldquo;Content built with communities, not just about them —{" "}
               <em className="text-peach not-italic">
                 so every family has access to the care they deserve.
@@ -141,7 +141,7 @@ export default function AboutPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
               Our Approach
             </p>
-            <h2 className="mb-13 max-w-xl font-serif text-[clamp(32px,3.8vw,48px)] leading-[1.18] font-light text-near-black">
+            <h2 className="mb-13 max-w-xl font-serif text-[clamp(32px,3.8vw,48px)] leading-[1.18] font-normal text-near-black">
               How we build content that{" "}
               <em className="text-teal-deep not-italic italic">actually works.</em>
             </h2>
@@ -168,7 +168,7 @@ export default function AboutPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
               The Team
             </p>
-            <h2 className="mb-15 max-w-xl font-serif text-[clamp(32px,3.8vw,48px)] leading-[1.18] font-light text-near-black">
+            <h2 className="mb-15 max-w-xl font-serif text-[clamp(32px,3.8vw,48px)] leading-[1.18] font-normal text-near-black">
               The people behind <em className="text-teal-deep not-italic italic">Aligned.</em>
             </h2>
 

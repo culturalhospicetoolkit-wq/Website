@@ -84,7 +84,7 @@ export default function OrganizationsPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
               Plans &amp; Pricing
             </p>
-            <h2 className="mb-10 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-light text-near-black">
+            <h2 className="mb-10 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-near-black">
               Pricing scaled to your organization.
               <br />
               <em className="text-teal-deep not-italic italic">Let&apos;s find the right fit.</em>
@@ -141,7 +141,7 @@ export default function OrganizationsPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
               Who It&apos;s For
             </p>
-            <h2 className="mb-13 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-light text-near-black">
+            <h2 className="mb-13 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-near-black">
               Built for three teams.
               <br />
               <em className="text-teal-deep not-italic italic">Serving the same mission.</em>
@@ -173,7 +173,7 @@ export default function OrganizationsPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
               The ROI Case
             </p>
-            <h2 className="mb-13 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-light text-near-black">
+            <h2 className="mb-13 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-near-black">
               Cultural trust is your{" "}
               <em className="text-teal-deep not-italic italic">
                 highest-leverage census investment.

@@ -28,7 +28,7 @@ export function PageHero({
         <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
           {eyebrow}
         </p>
-        <h1 className="mb-7 max-w-3xl font-serif text-[clamp(42px,5.5vw,72px)] leading-[1.1] font-light text-near-black">
+        <h1 className="mb-7 max-w-3xl font-serif text-[clamp(42px,5.5vw,72px)] leading-[1.1] font-normal text-near-black">
           {title}
         </h1>
         <p className="max-w-xl text-[17px] leading-[1.8] font-light text-text-muted">{intro}</p>

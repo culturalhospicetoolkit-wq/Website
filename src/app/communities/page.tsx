@@ -95,7 +95,7 @@ export default function CommunitiesPage() {
         />
 
         <div className="bg-teal-deep px-6 py-16 text-center sm:px-13">
-          <p className="mx-auto max-w-3xl font-serif text-[clamp(22px,2.8vw,34px)] leading-[1.45] font-light text-white italic">
+          <p className="mx-auto max-w-3xl font-serif text-[clamp(22px,2.8vw,34px)] leading-[1.45] font-normal text-white italic">
             &ldquo;Translation is not enough. We rebuild content around each community&apos;s{" "}
             <em className="text-peach not-italic">own framework</em>{" "}
             for understanding serious illness and end-of-life care.&rdquo;
@@ -107,7 +107,7 @@ export default function CommunitiesPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
               Available Now
             </p>
-            <h2 className="mx-auto mb-13 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-light text-near-black">
+            <h2 className="mx-auto mb-13 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-near-black">
               Ten communities.
               <br />
               <em className="text-teal-deep not-italic italic">Ready to deploy.</em>
@@ -185,7 +185,7 @@ export default function CommunitiesPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
               In Development
             </p>
-            <h2 className="mb-10 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-light text-near-black">
+            <h2 className="mb-10 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-near-black">
               More communities <em className="text-teal-deep not-italic italic">coming soon.</em>
             </h2>
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -197,7 +197,7 @@ export default function CommunitiesPage() {
                   <span className="mb-3 inline-block rounded-full bg-purple-mid/8 px-3 py-1 text-[10px] font-bold tracking-[0.14em] text-purple-mid uppercase">
                     Coming Soon
                   </span>
-                  <div className="mb-2 font-serif text-xl font-light text-near-black">
+                  <div className="mb-2 font-serif text-xl font-normal text-near-black">
                     {item.name}
                   </div>
                   <p className="text-[13px] leading-[1.7] text-text-muted">{item.body}</p>

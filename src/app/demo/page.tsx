@@ -31,7 +31,7 @@ export default function DemoPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-teal-light uppercase">
               Let&apos;s Talk
             </p>
-            <h1 className="mb-5 font-serif text-[clamp(36px,4vw,54px)] leading-[1.15] font-light text-white">
+            <h1 className="mb-5 font-serif text-[clamp(36px,4vw,54px)] leading-[1.15] font-normal text-white">
               See Aligned in action for <em className="text-peach not-italic italic">your organization.</em>
             </h1>
             <p className="mb-12 max-w-sm text-[15px] leading-[1.78] text-white/62">

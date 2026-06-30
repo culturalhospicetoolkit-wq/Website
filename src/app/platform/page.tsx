@@ -109,7 +109,7 @@ export default function PlatformPage() {
               <span className="mb-5 inline-block rounded-full bg-gold/12 px-3.5 py-1.5 text-[10px] font-bold tracking-[0.18em] text-gold uppercase">
                 Module 01
               </span>
-              <h2 className="mb-5 font-serif text-[clamp(28px,3.2vw,42px)] leading-[1.2] font-light text-near-black">
+              <h2 className="mb-5 font-serif text-[clamp(28px,3.2vw,42px)] leading-[1.2] font-normal text-near-black">
                 Community Outreach Suite
               </h2>
               <p className="mb-4.5 text-[15px] leading-[1.88] text-text-body/85">
@@ -155,7 +155,7 @@ export default function PlatformPage() {
               <span className="mb-5 inline-block rounded-full bg-teal-deep/10 px-3.5 py-1.5 text-[10px] font-bold tracking-[0.18em] text-teal-deep uppercase">
                 Module 02
               </span>
-              <h2 className="mb-5 font-serif text-[clamp(28px,3.2vw,42px)] leading-[1.2] font-light text-near-black">
+              <h2 className="mb-5 font-serif text-[clamp(28px,3.2vw,42px)] leading-[1.2] font-normal text-near-black">
                 Cultural Competency Hub
               </h2>
               <p className="mb-4.5 text-[15px] leading-[1.88] text-text-body/85">
@@ -187,7 +187,7 @@ export default function PlatformPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
               Platform Features
             </p>
-            <h2 className="mb-13 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-light text-near-black">
+            <h2 className="mb-13 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-near-black">
               Built for how healthcare organizations{" "}
               <em className="text-teal-deep not-italic italic">actually work.</em>
             </h2>
@@ -214,7 +214,7 @@ export default function PlatformPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-teal-light uppercase">
               How It Works
             </p>
-            <h2 className="mb-15 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-light text-white">
+            <h2 className="mb-15 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-white">
               Turnkey from day one.
             </h2>
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
