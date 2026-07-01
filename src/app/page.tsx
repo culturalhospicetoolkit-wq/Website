@@ -116,6 +116,37 @@ export default function Home() {
           </div>
         </section>
 
+        {/* MARKETING ROI */}
+        <section className="bg-off-white px-6 py-22 sm:px-13">
+          <div className="mx-auto grid max-w-[1080px] items-start gap-10 md:grid-cols-2 md:gap-20">
+            <div>
+              <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-teal-mid uppercase">
+                The Census Opportunity
+              </p>
+              <h2 className="font-serif text-[clamp(30px,3.5vw,44px)] leading-[1.2] font-normal text-near-black">
+                Every hospice organization has a marketing budget.{" "}
+                <em className="text-amber not-italic italic">Most of it reaches the wrong communities.</em>
+              </h2>
+            </div>
+            <div>
+              <p className="mb-5.5 text-[15px] leading-[1.9] text-text-muted">
+                Most marketing spend goes toward channels that reach communities already inclined to
+                seek hospice care. The underserved communities in your market — the ones driving your
+                census gap — aren&rsquo;t reached by those channels.
+              </p>
+              <p className="mb-5.5 text-[15px] leading-[1.9] text-text-muted">
+                Aligned gives your outreach team the tools to open conversations that weren&rsquo;t
+                possible before. Community events, faith organizations, referral partners — with
+                culturally credible materials that build trust rather than barriers.
+              </p>
+              <div className="border-l-2 border-amber pl-6 font-serif text-xl leading-[1.5] font-normal text-near-black italic">
+                &ldquo;The result isn&rsquo;t just better care. It&rsquo;s sustainable census growth
+                from markets your competitors haven&rsquo;t figured out how to reach.&rdquo;
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* STATS */}
         <div className="flex flex-wrap justify-center gap-y-8 bg-warm-white px-6 py-14 sm:px-13">
           {STATS.map((stat) => (
