@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { EB_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 
-const cormorant = Cormorant_Garamond({
+const cormorant = EB_Garamond({
   variable: "--font-cormorant",
   subsets: ["latin"],
-  weight: ["300", "400", "500"],
+  weight: ["400", "500", "600"],
   style: ["normal", "italic"],
 });
 
@@ -16,9 +16,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Aligned — Culturally Adaptive Serious Illness & End-of-Life Education",
+  title: "Aligned — The Cultural Bridge for Hospice Care",
   description:
-    "Aligned gives hospice organizations a turnkey system to reach more families, grow census, and prepare every member of your clinical team to serve with cultural confidence.",
+    "Aligned gives hospice organizations culturally rebuilt outreach and clinical training — so your team can open doors other providers can't.",
 };
 
 export default function RootLayout({

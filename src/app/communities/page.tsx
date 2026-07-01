@@ -57,7 +57,7 @@ const COMMUNITIES = [
   },
   {
     name: "Russian",
-    body: "Addresses cultural attitudes toward direct communication about death, stoicism, the role of family, and Orthodox Christian frameworks in end-of-life care. Navigates the balance between honesty and protection in difficult conversations.",
+    body: "Addresses deep-rooted distrust of the healthcare system shaped by Soviet-era medical culture — including historic undertreatment of pain — alongside Orthodox Christian frameworks, stoicism, the protective role of family, and cultural norms around direct communication about death.",
   },
 ];
 
