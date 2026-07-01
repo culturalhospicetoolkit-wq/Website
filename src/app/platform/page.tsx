@@ -187,7 +187,7 @@ export default function PlatformPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
               Platform Features
             </p>
-            <h2 className="mb-13 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-near-black">
+            <h2 className="mb-7 md:mb-13 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-near-black">
               Built for how healthcare organizations{" "}
               <em className="text-teal-deep not-italic italic">actually work.</em>
             </h2>
@@ -214,7 +214,7 @@ export default function PlatformPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-teal-light uppercase">
               How It Works
             </p>
-            <h2 className="mb-15 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-white">
+            <h2 className="mb-8 md:mb-15 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-white">
               Turnkey from day one.
             </h2>
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">

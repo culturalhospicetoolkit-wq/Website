@@ -14,7 +14,7 @@ export function CtaStrip({
   ctaHref?: string;
 }) {
   return (
-    <section className="border-t border-border-soft bg-warm-white px-6 py-20 text-center sm:px-13">
+    <section className="border-t border-border-soft bg-warm-white px-6 py-12 text-center sm:px-13 md:py-20">
       <h2 className="mx-auto mb-4 max-w-xl font-serif text-[clamp(32px,4vw,50px)] leading-[1.15] font-light text-near-black">
         {heading} <em className="text-teal-deep not-italic font-normal italic">{emphasis}</em>
       </h2>

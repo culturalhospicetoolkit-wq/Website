@@ -107,7 +107,7 @@ export default function CommunitiesPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
               Available Now
             </p>
-            <h2 className="mx-auto mb-13 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-near-black">
+            <h2 className="mx-auto mb-7 md:mb-13 max-w-2xl font-serif text-[clamp(32px,3.8vw,50px)] leading-[1.18] font-normal text-near-black">
               Ten communities.
               <br />
               <em className="text-teal-deep not-italic italic">Ready to deploy.</em>

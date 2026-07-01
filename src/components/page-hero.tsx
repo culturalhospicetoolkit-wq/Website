@@ -12,7 +12,7 @@ export function PageHero({
   washSide?: "left" | "right";
 }) {
   return (
-    <section className="relative overflow-hidden px-6 pt-36 pb-16 sm:px-13 sm:pt-44 sm:pb-20">
+    <section className="relative overflow-hidden px-6 pt-24 pb-12 sm:px-13 sm:pt-32 sm:pb-16 md:pt-40 md:pb-20">
       <div
         className={`pointer-events-none absolute top-0 h-[500px] w-[500px] rounded-full ${
           washSide === "right" ? "right-0" : "left-0"
@@ -28,7 +28,7 @@ export function PageHero({
         <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
           {eyebrow}
         </p>
-        <h1 className="mb-7 max-w-3xl font-serif text-[clamp(42px,5.5vw,72px)] leading-[1.1] font-normal text-near-black">
+        <h1 className="mb-6 max-w-3xl font-serif text-[clamp(32px,5.5vw,72px)] leading-[1.15] font-normal text-near-black">
           {title}
         </h1>
         <p className="max-w-xl text-[17px] leading-[1.8] font-light text-text-muted">{intro}</p>

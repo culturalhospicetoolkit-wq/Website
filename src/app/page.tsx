@@ -76,8 +76,8 @@ export default function Home() {
       <main className="flex-1">
 
         {/* HERO — split layout */}
-        <section className="relative min-h-screen bg-off-white px-6 pt-32 pb-20 sm:px-13">
-          <div className="mx-auto grid max-w-[1080px] items-center gap-16 md:grid-cols-2 md:pt-20">
+        <section className="relative bg-off-white px-6 pt-24 pb-14 sm:px-13 md:min-h-screen md:pt-36 md:pb-20">
+          <div className="mx-auto grid max-w-[1080px] items-center gap-10 md:grid-cols-2 md:gap-16 md:pt-16">
             <div>
               <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-teal-mid uppercase">
                 For Hospice &amp; Palliative Care Organizations
@@ -95,14 +95,14 @@ export default function Home() {
                 <TextLink href="/platform">See the platform</TextLink>
               </div>
             </div>
-            <div className="flex justify-center md:justify-end">
+            <div className="hidden md:flex md:justify-end">
               <LogoMark size={320} variant="color" />
             </div>
           </div>
         </section>
 
         {/* STATEMENT */}
-        <section className="bg-near-black px-6 py-20 text-center sm:px-13">
+        <section className="bg-near-black px-6 py-12 text-center sm:px-13 md:py-20">
           <div className="mx-auto max-w-3xl">
             <h2 className="font-serif text-[clamp(32px,4.5vw,58px)] leading-[1.2] font-normal text-white">
               Underserved communities aren&rsquo;t choosing other hospices.{" "}
@@ -117,7 +117,7 @@ export default function Home() {
         </section>
 
         {/* MARKETING ROI */}
-        <section className="bg-off-white px-6 py-22 sm:px-13">
+        <section className="bg-off-white px-6 py-12 sm:px-13 md:py-22">
           <div className="mx-auto grid max-w-[1080px] items-start gap-10 md:grid-cols-2 md:gap-20">
             <div>
               <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-teal-mid uppercase">
@@ -162,7 +162,7 @@ export default function Home() {
         </div>
 
         {/* PLATFORM */}
-        <section className="bg-off-white px-6 py-24 sm:px-13">
+        <section className="bg-off-white px-6 py-12 sm:px-13 md:py-24">
           <div className="mx-auto max-w-[1080px]">
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-teal-mid uppercase">
               The Platform
@@ -193,7 +193,7 @@ export default function Home() {
         </section>
 
         {/* WHO */}
-        <section className="bg-warm-white px-6 py-22 sm:px-13">
+        <section className="bg-warm-white px-6 py-12 sm:px-13 md:py-22">
           <div className="mx-auto max-w-[1080px]">
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-teal-mid uppercase">
               Who It&rsquo;s For
@@ -222,7 +222,7 @@ export default function Home() {
         </section>
 
         {/* COMMUNITIES */}
-        <section className="bg-off-white px-6 py-20 text-center sm:px-13">
+        <section className="bg-off-white px-6 py-12 text-center sm:px-13 md:py-20">
           <div className="mx-auto max-w-[1080px]">
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-teal-mid uppercase">
               Cultural Communities
@@ -251,7 +251,7 @@ export default function Home() {
         </section>
 
         {/* CTA */}
-        <section className="bg-near-black px-6 py-24 text-center sm:px-13">
+        <section className="bg-near-black px-6 py-14 text-center sm:px-13 md:py-24">
           <div className="mx-auto max-w-[560px]">
             <p className="mb-4 text-[11px] font-semibold tracking-[0.22em] text-teal-light uppercase">
               Get Started
@@ -264,16 +264,16 @@ export default function Home() {
               A real conversation about where your census gaps are — and how Aligned closes them.
               No sales deck. Just answers.
             </p>
-            <form className="flex flex-wrap justify-center gap-2.5">
+            <form className="flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:justify-center">
               <input
                 type="email"
                 required
                 placeholder="Work email address"
-                className="min-w-[220px] flex-1 rounded-sm border border-white/15 bg-white/5 px-4.5 py-3.5 text-sm text-white outline-none transition-colors placeholder:text-white/40 focus:border-amber"
+                className="w-full rounded-sm border border-white/15 bg-white/5 px-4.5 py-3.5 text-sm text-white outline-none transition-colors placeholder:text-white/40 focus:border-amber sm:min-w-[220px] sm:flex-1"
               />
               <button
                 type="submit"
-                className="rounded-sm bg-amber px-6.5 py-3.5 text-xs font-semibold tracking-[0.12em] text-near-black uppercase transition-colors hover:bg-gold-deep hover:text-white"
+                className="w-full rounded-sm bg-amber px-6.5 py-3.5 text-xs font-semibold tracking-[0.12em] text-near-black uppercase transition-colors hover:bg-gold-deep hover:text-white sm:w-auto"
               >
                 Request Demo
               </button>

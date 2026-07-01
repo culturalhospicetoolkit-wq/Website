@@ -120,7 +120,7 @@ export default function AboutPage() {
         </section>
 
         {/* Mission strip */}
-        <div className="bg-teal-deep px-6 py-18 text-center sm:px-13">
+        <div className="bg-teal-deep px-6 py-10 md:py-18 text-center sm:px-13">
           <div className="mx-auto max-w-[760px]">
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-teal-light uppercase">
               Our Mission
@@ -141,7 +141,7 @@ export default function AboutPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
               Our Approach
             </p>
-            <h2 className="mb-13 max-w-xl font-serif text-[clamp(32px,3.8vw,48px)] leading-[1.18] font-normal text-near-black">
+            <h2 className="mb-7 md:mb-13 max-w-xl font-serif text-[clamp(32px,3.8vw,48px)] leading-[1.18] font-normal text-near-black">
               How we build content that{" "}
               <em className="text-teal-deep not-italic italic">actually works.</em>
             </h2>
@@ -168,7 +168,7 @@ export default function AboutPage() {
             <p className="mb-5 text-[11px] font-semibold tracking-[0.22em] text-slate-blue uppercase">
               The Team
             </p>
-            <h2 className="mb-15 max-w-xl font-serif text-[clamp(32px,3.8vw,48px)] leading-[1.18] font-normal text-near-black">
+            <h2 className="mb-8 md:mb-15 max-w-xl font-serif text-[clamp(32px,3.8vw,48px)] leading-[1.18] font-normal text-near-black">
               The people behind <em className="text-teal-deep not-italic italic">Aligned.</em>
             </h2>
 

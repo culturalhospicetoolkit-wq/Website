@@ -82,7 +82,7 @@ export default function DemoPage() {
                   className="w-full rounded-sm border border-slate-blue/20 bg-off-white px-4 py-3.5 text-sm text-near-black outline-none transition-colors placeholder:text-text-muted/50 focus:border-teal-mid"
                 />
               </div>
-              <div className="mb-5 grid grid-cols-2 gap-4">
+              <div className="mb-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
                 <div>
                   <label className="mb-2 block text-[11px] font-semibold tracking-[0.12em] text-text-muted uppercase">
                     Phone
